@@ -13,7 +13,7 @@ local espupdatetime = 5; autoesp = false
 local abs = math.abs
 local mouselock = false
 local canaimat = true
-local lockaim = true; local lockangle = 5
+local lockaim = true; local lockangle = 0.145912
 local ver = "2"
 local cam = game.Workspace.CurrentCamera
 local BetterDeathCount = true
