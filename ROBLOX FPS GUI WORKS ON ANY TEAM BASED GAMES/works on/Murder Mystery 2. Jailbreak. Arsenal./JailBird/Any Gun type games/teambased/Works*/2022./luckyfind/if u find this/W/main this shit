@@ -7,14 +7,14 @@ local plrs = game:GetService("Players")
 local lplr = game:GetService("Players").LocalPlayer
 local TeamBased = true ; local teambasedswitch = "o"
 local presskeytoaim = true; local aimkey = "b"
-aimbothider = false; aimbothiderspeed = .7
+aimbothider = false; aimbothiderspeed = -0.5
 local Aim_Assist = false ; Aim_Assist_Key = {Enum.KeyCode.LeftControl, "z"}
 local espupdatetime = 5; autoesp = false
 local abs = math.abs
 local mouselock = false
 local canaimat = true
-local lockaim = true; local lockangle = 7
-local ver = "2"
+local lockaim = true; local lockangle = 5
+local ver = ""
 local cam = game.Workspace.CurrentCamera
 local BetterDeathCount = true
 
